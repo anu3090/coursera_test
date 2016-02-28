@@ -3,8 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <h1> Hello Coursera!</h1>
+<div class="first">This is a block-level element</div> <!--block level elements usually come in the new line -->
+<span>This is an inline elements</span> <!--inline elements usually occur in the same line -->
+<div>This is the first div element</div>
+<div>This si another element</div>
+<span>
+    This is a span element
+</span>
+
+<div id="spaninsidediv">This is a div with span inside<span> THis span is inside div</span> </div> <!-- We can't place a div element inside the span
+element  span is referred to as phrasing content whereas div is referred to as Flow Content-->
+
+<!--Semantic HTML5 tags -->
+<header>
+Some header info
+    <nav>Shows the navigation</nav>
+</header>
+<section>
+    <article>Article</article>
+    <article1>Article1</article1>
+    <article2>Article2</article2>
+</section>
+
+<footer>
+    INCUDA 2016
+</footer>
+
+<!-- Lists in html Inside an ul element an li element is allowed -->
+<ol>
+    <li>Milk</li>
+    <li>Butter</li>
+    <li>Cookies
+    <ol>
+        <li>Chochlate</li>
+        <li>Sugar</li>
+        <li>Peanut Butter</li>
+    </ol></li>
+    <li>Peanut Bistol</li>
+</ol>
+
+<!-- HTML Entity References < - &lt; >- &gt;& - &amp;-->
+
+<!-- a tag is an inline element and a block level element.It can refer to some file in the same directory
+ or external link-->
+<a href="same-directory.html" title="same-directory">Same directory
+</a>
+<a href="http://www.google.com" target="_blank">Google link</a>
+
+
+<!-- a tag for sections within the same page which is referred to as Fragment Identifiers-->
+<li><a href="#section1">#Section1</a>
+    <a href="#section2">#Section2</a></li>
+
+<section id="section1">
+    This is the first section
+    <h1>First section</h1>
+    <p>This section comes first</p>
+    <p>and it is part of HTML5</p>
+</section>
+<section id="section2">
+    This is the second section
+    <h1>Second section</h1>
+    <p>This section comes second</p>
+    <p>and it is part of HTML5 and there is some more </p>
+        <p>text here which cannot be seen instantly</p>
+</section>
+
+<!-- Loading images in the web page -->
+
+<img src="http://lorempixel.com/400/200/sports/">
+<h1>Box Model</h1>
+<div id="box">
+    <div id="content">
+        Some content here
+    </div>
+</div>
+
+<div id="bg">Background is fun!</div>
+
+<!-- Floating Elements -->
+
+<h1> Floating Elements </h1>
+<div>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <section>This is regular content after this paragraph</section>
+</div>
+
+<!-- Two column Layout -->
+<div>
+    <p id="p5">Thhis paragraph is on the left side and 2 column layout can be used in the product in a very useful way</p>
+    <p id="p6">This paragraph is on the right side and 2 column layout can be used in the product in a very useful way</p>
+</div>
+
+<!-- Responsive Layout -->
+<h1>Responsive Layout</h1>
+<div class="row">
+    <div class="col-lg-3 col-md-6"><p>Item1</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item2</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item3</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item4</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item5</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item6</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item7</p></div>
+    <div class="col-lg-3 col-md-6"><p>Item8</p></div>
+</div>
+
 </body>
 </html>
